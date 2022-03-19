@@ -37,7 +37,6 @@ public class Producao {
         
         if (segundos < 0) {
             this.segundos = 100;
-            
         }else{
             this.segundos = segundos;
 
@@ -80,7 +79,7 @@ public class Producao {
 
     @Override
     public String toString() {
-        return  "peca: " + this.getPeca()
+        return  "Peca: " + this.getPeca()
                 + " levou um total de "
                 + this.getSegundos() 
                 + " levou "
